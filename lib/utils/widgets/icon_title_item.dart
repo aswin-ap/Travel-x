@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 
 import '../../data/local/preference/constants/colors.dart';
 
@@ -47,7 +46,7 @@ class IconTitleItem extends StatelessWidget {
                 paddingLeft, paddingTop, paddingRight, padingBottom),
             child: Row(
               children: [
-                SvgPicture.asset(
+                Image.asset(
                   icon,
                   width: 25,
                   height: 25,

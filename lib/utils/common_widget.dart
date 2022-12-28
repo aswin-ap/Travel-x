@@ -25,7 +25,7 @@ class CommonWidget {
       centerTitle: true,
       title: Text(
         title,
-        style: TextStyle(color: color, fontFamily: 'Rubik'),
+        style: TextStyle(color: color, fontFamily: 'Rubik', fontSize: 19.0),
       ),
       backgroundColor: Colors.transparent,
       elevation: 0.0,

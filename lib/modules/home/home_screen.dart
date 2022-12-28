@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_getx_boilerplate/modules/home/home.dart';
 import 'package:flutter_getx_boilerplate/modules/home/tabs/tabs.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 
 import '../../data/local/preference/constants/colors.dart';
@@ -83,7 +82,7 @@ class HomeScreen extends GetView<HomeController> {
 
   BottomNavigationBarItem _buildNavigationBarItem(String label, String svg) {
     return BottomNavigationBarItem(
-      icon: SvgPicture.asset('assets/svgs/$svg'),
+      icon: Image.asset('assets/svgs/$svg'),
       label: label,
     );
   }

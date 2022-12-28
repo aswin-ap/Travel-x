@@ -26,7 +26,7 @@ class RoundedCornerButton extends StatelessWidget {
               RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(32.0),
                   side: BorderSide(color: borderColor ?? buttonColor))),
-          elevation: MaterialStateProperty.all(0),
+          elevation: MaterialStateProperty.all(3.0),
           backgroundColor: MaterialStateProperty.all<Color>(buttonColor)),
       child: Align(
         alignment: Alignment.center,

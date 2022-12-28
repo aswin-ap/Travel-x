@@ -29,6 +29,10 @@ class AuthController extends GetxController {
   final loginEmailController = TextEditingController();
   final loginPasswordController = TextEditingController();
 
+  final otpField1 = TextEditingController();
+  final otpField2 = TextEditingController();
+  final otpField3 = TextEditingController();
+  final otpField4 = TextEditingController();
   @override
   void onInit() {
     super.onInit();

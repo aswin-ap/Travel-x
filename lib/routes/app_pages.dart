@@ -1,4 +1,5 @@
 import 'package:flutter_getx_boilerplate/modules/auth/auth.dart';
+import 'package:flutter_getx_boilerplate/modules/auth/otp_screen.dart';
 import 'package:flutter_getx_boilerplate/modules/home/home.dart';
 import 'package:flutter_getx_boilerplate/modules/me/cards/cards_screen.dart';
 import 'package:flutter_getx_boilerplate/modules/modules.dart';
@@ -24,6 +25,7 @@ class AppPages {
         GetPage(name: Routes.LOGIN, page: () => LoginScreen()),
       ],
     ),
+    GetPage(name: Routes.OTP, page: () => OtpScreen()),
     GetPage(
         name: Routes.HOME,
         page: () => HomeScreen(),

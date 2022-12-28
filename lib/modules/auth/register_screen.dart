@@ -9,6 +9,7 @@ import 'package:get/get.dart';
 
 import '../../data/local/preference/constants/colors.dart';
 import '../../data/local/preference/constants/common.dart';
+import '../../routes/app_pages.dart';
 import '../../utils/common_widget.dart';
 import '../../utils/regex.dart';
 import '../../utils/values/text_styles.dart';
@@ -153,7 +154,8 @@ class RegisterScreen extends StatelessWidget {
                 buttonColor: Colors.green,
                 textColor: Colors.white,
                 onClick: () {
-                  controller.register(context);
+                  //  controller.register(context);
+                  Get.toNamed(Routes.OTP, arguments: controller);
                 },
               ),
               CommonWidget.rowHeight(height: 15),
