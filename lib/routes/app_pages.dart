@@ -3,6 +3,8 @@ import 'package:flutter_getx_boilerplate/modules/auth/otp_screen.dart';
 import 'package:flutter_getx_boilerplate/modules/home/home.dart';
 import 'package:flutter_getx_boilerplate/modules/me/cards/cards_screen.dart';
 import 'package:flutter_getx_boilerplate/modules/modules.dart';
+import 'package:flutter_getx_boilerplate/modules/profile/profile_binding.dart';
+import 'package:flutter_getx_boilerplate/modules/profile/profile_screen.dart';
 import 'package:get/get.dart';
 
 part 'app_routes.dart';
@@ -33,5 +35,10 @@ class AppPages {
         children: [
           GetPage(name: Routes.CARDS, page: () => CardsScreen()),
         ]),
+    GetPage(
+      name: Routes.PROFILE,
+      page: () => ProfileScreen(),
+      binding: ProfileBinding(),
+    ),
   ];
 }

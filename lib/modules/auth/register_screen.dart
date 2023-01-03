@@ -155,7 +155,8 @@ class RegisterScreen extends StatelessWidget {
                 textColor: Colors.white,
                 onClick: () {
                   //  controller.register(context);
-                  Get.toNamed(Routes.OTP, arguments: controller);
+                 // Get.toNamed(Routes.OTP, arguments: controller);
+                  Get.toNamed(Routes.PROFILE);
                 },
               ),
               CommonWidget.rowHeight(height: 15),
